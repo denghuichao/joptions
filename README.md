@@ -1,0 +1,1 @@
+**Largely GNU-compatible command-line options parser. It supports short (-v) and long-form (--verbose) option , and also allows options with associated values (-d 2, --debug 2, --debug=2). Option processing can be explicitly terminated by the argument '--'.**
