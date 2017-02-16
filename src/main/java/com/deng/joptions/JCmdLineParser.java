@@ -375,7 +375,6 @@ public class JCmdLineParser {
 
                         addValue(option,null,locale);
                     }
-
                     position++;
                     continue;
                 }
@@ -418,9 +417,7 @@ public class JCmdLineParser {
         T value = opt.getValue(valueArg, locale);
         String longForm = opt.longForm();
 
-        /* Cast is typesafe because the only location we add elements to the
-         * values map is in this method.
-         */
+
         @SuppressWarnings("unchecked")
         List<T> v = (List<T>) values.get(longForm);
 
